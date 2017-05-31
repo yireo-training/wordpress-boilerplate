@@ -7,3 +7,6 @@
 /vendor
 /wp
 .idea
+/wp-content/plugins
+!/wp-content/plugins/foo-bar
+/node_modules/

@@ -13,9 +13,16 @@
     "psr/log": "1.0.2",
     "monolog/monolog": "2.0.x-dev",
     "twig/twig": "^2.3",
-    "johnpbloch/wordpress": "4.*"
+    "johnpbloch/wordpress": "4.7.5",
+    "wpackagist-plugin/advanced-custom-fields": "^4.4"
   },
   "extra": {
     "wordpress-install-dir": "wp"
+  },
+  "repositories": {
+    "wpackagist": {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    }
   }
 }
